@@ -263,8 +263,8 @@ struct ContentView: View {
             canvasHeight = 1792
             canvasWidth = 828
         } else {
-            canvasHeight = redBarValues?.height ?? 1971
-            canvasWidth = redBarValues?.width ?? 911
+            canvasHeight = redBarValues?.height ?? 1770
+            canvasWidth = redBarValues?.width ?? 828
         }
         
         let data: [String: Any] = [
