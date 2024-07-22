@@ -29,14 +29,14 @@ struct SettingsView: View {
                     
                     Section {
                         HStack {
-                            Text("🍕")
+                            Text("🕊️")
                                 .font(.largeTitle)
                                 .foregroundColor(.black)
                             VStack(alignment: .leading) {
-                                Text("buy me a pizza")
+                                Text("My account on X!")
                                     .font(.headline)
                                     .foregroundColor(.white)
-                                Text("on buymeacoffee.com")
+                                Text("on x.com")
                                     .font(.caption)
                                     .foregroundColor(.secondary)
                             }
@@ -46,35 +46,16 @@ struct SettingsView: View {
                                 .foregroundColor(.secondary)
                         }
                         .onTapGesture {
-                            openURL(URL(string:"https://www.buymeacoffee.com/aboutzeph")!)
+                            openURL(URL(string:"https://x.com/FahadAMAlzhrani")!)
                         }
                         
                    
                         
 
                         HStack {
-                            Text("☕️")
-                                .font(.largeTitle)
-                                .foregroundColor(.black)
-                            VStack(alignment: .leading) {
-                                Text("buy me a coffee")
-                                    .font(.headline)
-                                    .foregroundColor(.white)
-                                Text("on ko-fi.com")
-                                    .font(.caption)
-                                    .foregroundColor(.secondary)
-                            }
-                            Spacer()
-                            Image(systemName:"arrow.up.forward.app.fill")
-                                .font(.title3)
-                                .foregroundColor(.secondary)
-                        }
-                        .onTapGesture {
-                            openURL(URL(string:"https://ko-fi.com/aboutzeph")!)
-                        }
                         
                     } header: {
-                        Text("Donate")
+                        Text("Accounts")
                             .padding(.top, 2)
                     } footer: {
                         Text("Any donation is greatly appreciated, this would help me continue to develop these kinds of apps for free and open source.")
