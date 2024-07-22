@@ -26,7 +26,7 @@ If the app somehow broke completely and you are an advanced user you can also ma
 - iOS 16.7.x / iOS 17.0.1 or newer it will never be supported as it rely on TrollStore.
 - iOS 15/14/13 etc. are **NOT** and will never be supported, as this is **NOT** a tweak.
 If you have one of the above listed iOS versions, please stay away from it cause it can bootloop your device.
-
+- iPhoneXR&11 Has Circlur island shape and im fixing it ! :)
 - I will keep you updated on [X / Twitter](https://x.com/aboutzeph) and on this readme about new features and bug fixes.
 
 ## Credits
